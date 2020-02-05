@@ -1,0 +1,23 @@
+{
+  "unsupported": 16,
+  "unknown": 18,
+  "no-value": 19,
+  "integer": 33,
+  "boolean": 34,
+  "enum": 35,
+  "octetString": 48,
+  "dateTime": 49,
+  "resolution": 50,
+  "rangeOfInteger": 51,
+  "collection": 52,
+  "textWithLanguage": 53,
+  "nameWithLanguage": 54,
+  "textWithoutLanguage": 65,
+  "nameWithoutLanguage": 66,
+  "keyword": 68,
+  "uri": 69,
+  "uriScheme": 70,
+  "charset": 71,
+  "naturalLanguage": 72,
+  "mimeMediaType": 73
+}

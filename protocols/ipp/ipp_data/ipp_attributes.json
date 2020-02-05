@@ -1,0 +1,3090 @@
+{
+    "accuracy-units-supported": [
+        "keyword",
+        68
+    ],
+    "attributes-charset": [
+        "charset",
+        71
+    ],
+    "attributes-natural-language": [
+        "naturalLanguage",
+        72
+    ],
+    "baling-type-supported": [
+        "keyword",
+        68
+    ],
+    "baling-when-supported": [
+        "keyword",
+        68
+    ],
+    "binding-reference-edge-supported": [
+        "keyword",
+        68
+    ],
+    "binding-type-supported": [
+        "keyword",
+        68
+    ],
+    "chamber-humidity": [
+        "integer",
+        33
+    ],
+    "chamber-humidity-actual": [
+        "integer",
+        33
+    ],
+    "chamber-humidity-current": [
+        "unknown",
+        18
+    ],
+    "chamber-humidity-default": [
+        "no-value",
+        19
+    ],
+    "chamber-humidity-supported": [
+        "boolean",
+        34
+    ],
+    "chamber-temperature": [
+        "integer",
+        33
+    ],
+    "chamber-temperature-actual": [
+        "integer",
+        33
+    ],
+    "chamber-temperature-current": [
+        "unknown",
+        18
+    ],
+    "chamber-temperature-default": [
+        "no-value",
+        19
+    ],
+    "chamber-temperature-supported": [
+        "integer",
+        33
+    ],
+    "charge-info-message": [
+        "textWithoutLanguage",
+        65
+    ],
+    "charset-configured": [
+        "charset",
+        71
+    ],
+    "charset-supported": [
+        "charset",
+        71
+    ],
+    "coating-sides-supported": [
+        "keyword",
+        68
+    ],
+    "coating-type-supported": [
+        "keyword",
+        68
+    ],
+    "color-supported": [
+        "boolean",
+        34
+    ],
+    "compression": [
+        "keyword",
+        68
+    ],
+    "compression-accepted": [
+        "keyword",
+        68
+    ],
+    "compression-supplied": [
+        "keyword",
+        68
+    ],
+    "compression-supported": [
+        "keyword",
+        68
+    ],
+    "confirmation-sheet-print": [
+        "boolean",
+        34
+    ],
+    "confirmation-sheet-print-default": [
+        "boolean",
+        34
+    ],
+    "copies": [
+        "integer",
+        33
+    ],
+    "copies-actual": [
+        "integer",
+        33
+    ],
+    "copies-default": [
+        "integer",
+        33
+    ],
+    "copies-supported": [
+        "rangeOfInteger",
+        51
+    ],
+    "cover-back": [
+        "collection",
+        52
+    ],
+    "cover-back-actual": [
+        "collection",
+        52
+    ],
+    "cover-back-default": [
+        "collection",
+        52
+    ],
+    "cover-back-supported": [
+        "keyword",
+        68
+    ],
+    "cover-front": [
+        "collection",
+        52
+    ],
+    "cover-front-actual": [
+        "collection",
+        52
+    ],
+    "cover-front-default": [
+        "collection",
+        52
+    ],
+    "cover-front-supported": [
+        "keyword",
+        68
+    ],
+    "cover-sheet-info": [
+        "collection",
+        52
+    ],
+    "cover-sheet-info-default": [
+        "collection",
+        52
+    ],
+    "cover-sheet-info-supported": [
+        "keyword",
+        68
+    ],
+    "covering-name-supported": [
+        "keyword",
+        68
+    ],
+    "current-page-order": [
+        "keyword",
+        68
+    ],
+    "date-time-at-completed": [
+        "dateTime",
+        49
+    ],
+    "date-time-at-created": [
+        "dateTime",
+        49
+    ],
+    "date-time-at-creation": [
+        "dateTime",
+        49
+    ],
+    "date-time-at-processing": [
+        "dateTime",
+        49
+    ],
+    "destination-accesses": [
+        "no-value",
+        19
+    ],
+    "destination-accesses-supported": [
+        "keyword",
+        68
+    ],
+    "destination-statuses": [
+        "collection",
+        52
+    ],
+    "destination-uri-ready": [
+        "collection",
+        52
+    ],
+    "destination-uri-schemes-supported": [
+        "uri",
+        69
+    ],
+    "destination-uris": [
+        "collection",
+        52
+    ],
+    "destination-uris-supported": [
+        "keyword",
+        68
+    ],
+    "detailed-status-message": [
+        "textWithoutLanguage",
+        65
+    ],
+    "detailed-status-messages": [
+        "textWithoutLanguage",
+        65
+    ],
+    "device-service-count": [
+        "integer",
+        33
+    ],
+    "device-uuid": [
+        "uri",
+        69
+    ],
+    "document-access": [
+        "no-value",
+        19
+    ],
+    "document-access-error": [
+        "textWithoutLanguage",
+        65
+    ],
+    "document-access-errors": [
+        "textWithoutLanguage",
+        65
+    ],
+    "document-access-supported": [
+        "keyword",
+        68
+    ],
+    "document-charset": [
+        "charset",
+        71
+    ],
+    "document-charset-default": [
+        "charset",
+        71
+    ],
+    "document-charset-supplied": [
+        "charset",
+        71
+    ],
+    "document-charset-supported": [
+        "charset",
+        71
+    ],
+    "document-creation-attributes-supported": [
+        "keyword",
+        68
+    ],
+    "document-data-get-interval": [
+        "integer",
+        33
+    ],
+    "document-data-wait": [
+        "boolean",
+        34
+    ],
+    "document-digital-signature": [
+        "keyword",
+        68
+    ],
+    "document-digital-signature-default": [
+        "keyword",
+        68
+    ],
+    "document-digital-signature-supplied": [
+        "keyword",
+        68
+    ],
+    "document-digital-signature-supported": [
+        "keyword",
+        68
+    ],
+    "document-format": [
+        "mimeMediaType",
+        73
+    ],
+    "document-format-accepted": [
+        "mimeMediaType",
+        73
+    ],
+    "document-format-default": [
+        "mimeMediaType",
+        73
+    ],
+    "document-format-details": [
+        "textWithoutLanguage",
+        65
+    ],
+    "document-format-details-default": [
+        "collection",
+        52
+    ],
+    "document-format-details-detected": [
+        "collection",
+        52
+    ],
+    "document-format-details-supplied": [
+        "collection",
+        52
+    ],
+    "document-format-details-supported": [
+        "keyword",
+        68
+    ],
+    "document-format-detected": [
+        "mimeMediaType",
+        73
+    ],
+    "document-format-ready": [
+        "mimeMediaType",
+        73
+    ],
+    "document-format-supplied": [
+        "mimeMediaType",
+        73
+    ],
+    "document-format-supported": [
+        "mimeMediaType",
+        73
+    ],
+    "document-format-varying-attributes": [
+        "keyword",
+        68
+    ],
+    "document-format-version": [
+        "textWithoutLanguage",
+        65
+    ],
+    "document-format-version-default": [
+        "textWithoutLanguage",
+        65
+    ],
+    "document-format-version-detected": [
+        "textWithoutLanguage",
+        65
+    ],
+    "document-format-version-supplied": [
+        "textWithoutLanguage",
+        65
+    ],
+    "document-format-version-supported": [
+        "textWithoutLanguage",
+        65
+    ],
+    "document-job-id": [
+        "integer",
+        33
+    ],
+    "document-job-uri": [
+        "uri",
+        69
+    ],
+    "document-message": [
+        "textWithoutLanguage",
+        65
+    ],
+    "document-message-supplied": [
+        "textWithoutLanguage",
+        65
+    ],
+    "document-metadata": [
+        "octetString",
+        48
+    ],
+    "document-name": [
+        "nameWithoutLanguage",
+        66
+    ],
+    "document-name-supplied": [
+        "nameWithoutLanguage",
+        66
+    ],
+    "document-natural-language": [
+        "naturalLanguage",
+        72
+    ],
+    "document-natural-language-default": [
+        "naturalLanguage",
+        72
+    ],
+    "document-natural-language-supplied": [
+        "naturalLanguage",
+        72
+    ],
+    "document-natural-language-supported": [
+        "naturalLanguage",
+        72
+    ],
+    "document-number": [
+        "integer",
+        33
+    ],
+    "document-password": [
+        "octetString",
+        48
+    ],
+    "document-password-supported": [
+        "integer",
+        33
+    ],
+    "document-preprocessed": [
+        "boolean",
+        34
+    ],
+    "document-printer-uri": [
+        "uri",
+        69
+    ],
+    "document-privacy-attributes": [
+        "keyword",
+        68
+    ],
+    "document-privacy-scope": [
+        "keyword",
+        68
+    ],
+    "document-state": [
+        "enum",
+        35
+    ],
+    "document-state-message": [
+        "textWithoutLanguage",
+        65
+    ],
+    "document-state-reasons": [
+        "keyword",
+        68
+    ],
+    "document-uri": [
+        "uri",
+        69
+    ],
+    "document-uuid": [
+        "uri",
+        69
+    ],
+    "errors-count": [
+        "integer",
+        33
+    ],
+    "feed-orientation": [
+        "keyword",
+        68
+    ],
+    "feed-orientation-default": [
+        "keyword",
+        68
+    ],
+    "feed-orientation-supported": [
+        "keyword",
+        68
+    ],
+    "fetch-document-attributes-supported": [
+        "keyword",
+        68
+    ],
+    "fetch-status-code": [
+        "enum",
+        35
+    ],
+    "fetch-status-message": [
+        "textWithoutLanguage",
+        65
+    ],
+    "finishing-template-supported": [
+        "keyword",
+        68
+    ],
+    "finishings": [
+        "enum",
+        35
+    ],
+    "finishings-actual": [
+        "enum",
+        35
+    ],
+    "finishings-col": [
+        "collection",
+        52
+    ],
+    "finishings-col-actual": [
+        "collection",
+        52
+    ],
+    "finishings-col-database": [
+        "collection",
+        52
+    ],
+    "finishings-col-default": [
+        "collection",
+        52
+    ],
+    "finishings-col-ready": [
+        "collection",
+        52
+    ],
+    "finishings-col-supported": [
+        "keyword",
+        68
+    ],
+    "finishings-default": [
+        "enum",
+        35
+    ],
+    "finishings-ready": [
+        "enum",
+        35
+    ],
+    "finishings-supported": [
+        "enum",
+        35
+    ],
+    "first-index": [
+        "integer",
+        33
+    ],
+    "folding-direction-supported": [
+        "keyword",
+        68
+    ],
+    "folding-offset-supported": [
+        "integer",
+        33
+    ],
+    "folding-reference-edge-supported": [
+        "keyword",
+        68
+    ],
+    "font-name-requested": [
+        "nameWithoutLanguage",
+        66
+    ],
+    "font-name-requested-default": [
+        "nameWithoutLanguage",
+        66
+    ],
+    "font-name-requested-supported": [
+        "nameWithoutLanguage",
+        66
+    ],
+    "font-size-requested": [
+        "integer",
+        33
+    ],
+    "font-size-requested-default": [
+        "integer",
+        33
+    ],
+    "font-size-requested-supported": [
+        "rangeOfInteger",
+        51
+    ],
+    "force-front-side": [
+        "integer",
+        33
+    ],
+    "force-front-side-actual": [
+        "integer",
+        33
+    ],
+    "force-front-side-default ": [
+        "integer",
+        33
+    ],
+    "force-front-side-supported ": [
+        "rangeOfInteger",
+        51
+    ],
+    "from-name-supported": [
+        "integer",
+        33
+    ],
+    "generated-natural-language-supported": [
+        "naturalLanguage",
+        72
+    ],
+    "identify-actions": [
+        "keyword",
+        68
+    ],
+    "identify-actions-default": [
+        "keyword",
+        68
+    ],
+    "identify-actions-supported": [
+        "keyword",
+        68
+    ],
+    "imposition-template": [
+        "keyword",
+        68
+    ],
+    "imposition-template-actual": [
+        "keyword",
+        68
+    ],
+    "imposition-template-default": [
+        "keyword",
+        68
+    ],
+    "imposition-template-supported": [
+        "keyword",
+        68
+    ],
+    "impressions": [
+        "integer",
+        33
+    ],
+    "impressions-col": [
+        "collection",
+        52
+    ],
+    "impressions-completed": [
+        "integer",
+        33
+    ],
+    "impressions-completed-col": [
+        "collection",
+        52
+    ],
+    "impressions-completed-current-copy": [
+        "integer",
+        33
+    ],
+    "input-attributes": [
+        "collection",
+        52
+    ],
+    "input-attributes-actual": [
+        "collection",
+        52
+    ],
+    "input-attributes-default": [
+        "collection",
+        52
+    ],
+    "input-attributes-supported": [
+        "keyword",
+        68
+    ],
+    "input-color-mode-supported": [
+        "keyword",
+        68
+    ],
+    "input-content-type-supported": [
+        "keyword",
+        68
+    ],
+    "input-film-scan-mode-supported": [
+        "keyword",
+        68
+    ],
+    "input-media-supported": [
+        "keyword",
+        68
+    ],
+    "input-orientation-requested-supported": [
+        "enum",
+        35
+    ],
+    "input-quality-supported": [
+        "enum",
+        35
+    ],
+    "input-resolution-supported": [
+        "resolution",
+        50
+    ],
+    "input-scan-regions-supported": [
+        "collection",
+        52
+    ],
+    "input-sides-supported": [
+        "keyword",
+        68
+    ],
+    "input-source-supported": [
+        "keyword",
+        68
+    ],
+    "insert-after-page-number-supported": [
+        "rangeOfInteger",
+        51
+    ],
+    "insert-count-supported": [
+        "rangeOfInteger",
+        51
+    ],
+    "insert-sheet": [
+        "collection",
+        52
+    ],
+    "insert-sheet-actual": [
+        "collection",
+        52
+    ],
+    "insert-sheet-default": [
+        "collection",
+        52
+    ],
+    "insert-sheet-supported": [
+        "keyword",
+        68
+    ],
+    "ipp-attribute-fidelity": [
+        "boolean",
+        34
+    ],
+    "ipp-features-supported": [
+        "keyword",
+        68
+    ],
+    "ipp-versions-supported": [
+        "keyword",
+        68
+    ],
+    "ippget-event-life": [
+        "integer",
+        33
+    ],
+    "job-account-id": [
+        "nameWithoutLanguage",
+        66
+    ],
+    "job-account-id-actual": [
+        "nameWithoutLanguage",
+        66
+    ],
+    "job-account-id-default": [
+        "no-value",
+        19
+    ],
+    "job-account-id-supported": [
+        "boolean",
+        34
+    ],
+    "job-account-type": [
+        "keyword",
+        68
+    ],
+    "job-account-type-actual": [
+        "keyword",
+        68
+    ],
+    "job-account-type-default": [
+        "keyword",
+        68
+    ],
+    "job-account-type-supported": [
+        "keyword",
+        68
+    ],
+    "job-accounting-sheets": [
+        "collection",
+        52
+    ],
+    "job-accounting-sheets-actual": [
+        "collection",
+        52
+    ],
+    "job-accounting-sheets-default": [
+        "no-value",
+        19
+    ],
+    "job-accounting-sheets-supported": [
+        "keyword",
+        68
+    ],
+    "job-accounting-user-id": [
+        "nameWithoutLanguage",
+        66
+    ],
+    "job-accounting-user-id-actual": [
+        "nameWithoutLanguage",
+        66
+    ],
+    "job-accounting-user-id-default": [
+        "no-value",
+        19
+    ],
+    "job-accounting-user-id-supported": [
+        "boolean",
+        34
+    ],
+    "job-attribute-fidelity": [
+        "boolean",
+        34
+    ],
+    "job-authorization-uri": [
+        "uri",
+        69
+    ],
+    "job-authorization-uri-supported": [
+        "boolean",
+        34
+    ],
+    "job-cancel-after": [
+        "integer",
+        33
+    ],
+    "job-cancel-after-default": [
+        "no-value",
+        19
+    ],
+    "job-cancel-after-supported": [
+        "rangeOfInteger",
+        51
+    ],
+    "job-charge-info": [
+        "textWithoutLanguage",
+        65
+    ],
+    "job-collation-type": [
+        "enum",
+        35
+    ],
+    "job-constraints-supported": [
+        "collection",
+        52
+    ],
+    "job-copies": [
+        "integer",
+        33
+    ],
+    "job-copies-actual": [
+        "integer",
+        33
+    ],
+    "job-copies-default": [
+        "integer",
+        33
+    ],
+    "job-copies-supported": [
+        "rangeOfInteger",
+        51
+    ],
+    "job-cover-back": [
+        "collection",
+        52
+    ],
+    "job-cover-back-actual": [
+        "collection",
+        52
+    ],
+    "job-cover-back-default": [
+        "collection",
+        52
+    ],
+    "job-cover-back-supported": [
+        "keyword",
+        68
+    ],
+    "job-cover-front": [
+        "collection",
+        52
+    ],
+    "job-cover-front-actual": [
+        "collection",
+        52
+    ],
+    "job-cover-front-default": [
+        "collection",
+        52
+    ],
+    "job-cover-front-supported": [
+        "keyword",
+        68
+    ],
+    "job-creation-attributes-supported": [
+        "keyword",
+        68
+    ],
+    "job-delay-output-until": [
+        "keyword",
+        68
+    ],
+    "job-delay-output-until-default": [
+        "keyword",
+        68
+    ],
+    "job-delay-output-until-interval-supported": [
+        "rangeOfInteger",
+        51
+    ],
+    "job-delay-output-until-supported": [
+        "keyword",
+        68
+    ],
+    "job-delay-output-until-time": [
+        "dateTime",
+        49
+    ],
+    "job-delay-output-until-time-supported": [
+        "rangeOfInteger",
+        51
+    ],
+    "job-destination-spooling-supported": [
+        "keyword",
+        68
+    ],
+    "job-detailed-status-messages": [
+        "textWithoutLanguage",
+        65
+    ],
+    "job-document-access-errors": [
+        "textWithoutLanguage",
+        65
+    ],
+    "job-error-action": [
+        "keyword",
+        68
+    ],
+    "job-error-action-default": [
+        "keyword",
+        68
+    ],
+    "job-error-action-supported": [
+        "keyword",
+        68
+    ],
+    "job-error-sheet": [
+        "collection",
+        52
+    ],
+    "job-error-sheet-actual": [
+        "collection",
+        52
+    ],
+    "job-error-sheet-default": [
+        "no-value",
+        19
+    ],
+    "job-error-sheet-supported": [
+        "keyword",
+        68
+    ],
+    "job-finishings": [
+        "enum",
+        35
+    ],
+    "job-finishings-actual": [
+        "enum",
+        35
+    ],
+    "job-finishings-col": [
+        "collection",
+        52
+    ],
+    "job-finishings-col-actual": [
+        "collection",
+        52
+    ],
+    "job-finishings-col-default": [
+        "collection",
+        52
+    ],
+    "job-finishings-col-ready": [
+        "collection",
+        52
+    ],
+    "job-finishings-col-supported": [
+        "keyword",
+        68
+    ],
+    "job-finishings-default": [
+        "enum",
+        35
+    ],
+    "job-finishings-ready": [
+        "enum",
+        35
+    ],
+    "job-finishings-supported": [
+        "enum",
+        35
+    ],
+    "job-history-attributes-configured": [
+        "keyword",
+        68
+    ],
+    "job-history-attributes-supported": [
+        "keyword",
+        68
+    ],
+    "job-history-interval-configured": [
+        "integer",
+        33
+    ],
+    "job-history-interval-supported": [
+        "rangeOfInteger",
+        51
+    ],
+    "job-hold-until": [
+        "keyword",
+        68
+    ],
+    "job-hold-until-actual": [
+        "keyword",
+        68
+    ],
+    "job-hold-until-default": [
+        "keyword",
+        68
+    ],
+    "job-hold-until-supported": [
+        "keyword",
+        68
+    ],
+    "job-hold-until-time": [
+        "dateTime",
+        49
+    ],
+    "job-hold-until-time-supported": [
+        "rangeOfInteger",
+        51
+    ],
+    "job-id": [
+        "integer",
+        33
+    ],
+    "job-ids": [
+        "integer",
+        33
+    ],
+    "job-ids-supported": [
+        "boolean",
+        34
+    ],
+    "job-impressions": [
+        "integer",
+        33
+    ],
+    "job-impressions-col": [
+        "collection",
+        52
+    ],
+    "job-impressions-completed": [
+        "integer",
+        33
+    ],
+    "job-impressions-completed-col": [
+        "collection",
+        52
+    ],
+    "job-impressions-estimated": [
+        "integer",
+        33
+    ],
+    "job-impressions-supported": [
+        "rangeOfInteger",
+        51
+    ],
+    "job-k-octets": [
+        "integer",
+        33
+    ],
+    "job-k-octets-processed": [
+        "integer",
+        33
+    ],
+    "job-k-octets-supported": [
+        "rangeOfInteger",
+        51
+    ],
+    "job-mandatory-attributes": [
+        "keyword",
+        68
+    ],
+    "job-mandatory-attributes-supported": [
+        "boolean",
+        34
+    ],
+    "job-media-sheets": [
+        "integer",
+        33
+    ],
+    "job-media-sheets-col": [
+        "collection",
+        52
+    ],
+    "job-media-sheets-completed": [
+        "integer",
+        33
+    ],
+    "job-media-sheets-completed-col": [
+        "collection",
+        52
+    ],
+    "job-media-sheets-supported": [
+        "rangeOfInteger",
+        51
+    ],
+    "job-message-from-operator": [
+        "textWithoutLanguage",
+        65
+    ],
+    "job-message-to-operator": [
+        "textWithoutLanguage",
+        65
+    ],
+    "job-message-to-operator-actual": [
+        "textWithoutLanguage",
+        65
+    ],
+    "job-message-to-operator-default": [
+        "textWithoutLanguage",
+        65
+    ],
+    "job-message-to-operator-supported": [
+        "boolean",
+        34
+    ],
+    "job-more-info": [
+        "uri",
+        69
+    ],
+    "job-name": [
+        "nameWithoutLanguage",
+        66
+    ],
+    "job-originating-user-name": [
+        "nameWithoutLanguage",
+        66
+    ],
+    "job-originating-user-uri": [
+        "uri",
+        69
+    ],
+    "job-pages": [
+        "integer",
+        33
+    ],
+    "job-pages-col": [
+        "collection",
+        52
+    ],
+    "job-pages-completed": [
+        "integer",
+        33
+    ],
+    "job-pages-completed-col": [
+        "collection",
+        52
+    ],
+    "job-pages-completed-current-copy": [
+        "integer",
+        33
+    ],
+    "job-pages-per-set": [
+        "integer",
+        33
+    ],
+    "job-pages-per-set-supported": [
+        "boolean",
+        34
+    ],
+    "job-password": [
+        "octetString",
+        48
+    ],
+    "job-password-encryption": [
+        "keyword",
+        68
+    ],
+    "job-password-encryption-supported": [
+        "keyword",
+        68
+    ],
+    "job-password-length-supported": [
+        "rangeOfInteger",
+        51
+    ],
+    "job-password-repertoire-configured": [
+        "keyword",
+        68
+    ],
+    "job-password-repertoire-supported": [
+        "keyword",
+        68
+    ],
+    "job-password-supported": [
+        "integer",
+        33
+    ],
+    "job-phone-number": [
+        "uri",
+        69
+    ],
+    "job-phone-number-default": [
+        "uri",
+        69
+    ],
+    "job-phone-number-supported": [
+        "boolean",
+        34
+    ],
+    "job-presets-supported": [
+        "collection",
+        52
+    ],
+    "job-printer-up-time": [
+        "integer",
+        33
+    ],
+    "job-printer-uri": [
+        "uri",
+        69
+    ],
+    "job-priority": [
+        "integer",
+        33
+    ],
+    "job-priority-actual": [
+        "integer",
+        33
+    ],
+    "job-priority-default": [
+        "integer",
+        33
+    ],
+    "job-priority-supported": [
+        "integer",
+        33
+    ],
+    "job-privacy-attributes": [
+        "keyword",
+        68
+    ],
+    "job-privacy-scope": [
+        "keyword",
+        68
+    ],
+    "job-recipient-name": [
+        "nameWithoutLanguage",
+        66
+    ],
+    "job-recipient-name-default": [
+        "no-value",
+        19
+    ],
+    "job-recipient-name-supported": [
+        "boolean",
+        34
+    ],
+    "job-resolvers-supported": [
+        "collection",
+        52
+    ],
+    "job-retain-until": [
+        "keyword",
+        68
+    ],
+    "job-retain-until-default": [
+        "keyword",
+        68
+    ],
+    "job-retain-until-interval": [
+        "integer",
+        33
+    ],
+    "job-retain-until-interval-supported": [
+        "rangeOfInteger",
+        51
+    ],
+    "job-retain-until-supported": [
+        "keyword",
+        68
+    ],
+    "job-retain-until-time": [
+        "dateTime",
+        49
+    ],
+    "job-retain-until-time-supported": [
+        "rangeOfInteger",
+        51
+    ],
+    "job-save-disposition": [
+        "collection",
+        52
+    ],
+    "job-save-printer-make-and-model": [
+        "textWithoutLanguage",
+        65
+    ],
+    "job-settable-attributes-supported": [
+        "keyword",
+        68
+    ],
+    "job-sheet-message": [
+        "textWithoutLanguage",
+        65
+    ],
+    "job-sheet-message-actual": [
+        "textWithoutLanguage",
+        65
+    ],
+    "job-sheet-message-default": [
+        "textWithoutLanguage",
+        65
+    ],
+    "job-sheet-message-supported": [
+        "boolean",
+        34
+    ],
+    "job-sheets": [
+        "keyword",
+        68
+    ],
+    "job-sheets-actual": [
+        "keyword",
+        68
+    ],
+    "job-sheets-col": [
+        "collection",
+        52
+    ],
+    "job-sheets-col-actual": [
+        "collection",
+        52
+    ],
+    "job-sheets-col-default": [
+        "collection",
+        52
+    ],
+    "job-sheets-col-supported": [
+        "keyword",
+        68
+    ],
+    "job-sheets-default": [
+        "keyword",
+        68
+    ],
+    "job-sheets-supported": [
+        "keyword",
+        68
+    ],
+    "job-spooling-supported": [
+        "keyword",
+        68
+    ],
+    "job-state": [
+        "enum",
+        35
+    ],
+    "job-state-message": [
+        "textWithoutLanguage",
+        65
+    ],
+    "job-state-reasons": [
+        "keyword",
+        68
+    ],
+    "job-triggers-supported": [
+        "collection",
+        52
+    ],
+    "job-uri": [
+        "uri",
+        69
+    ],
+    "job-uuid": [
+        "uri",
+        69
+    ],
+    "jpeg-features-supported": [
+        "keyword",
+        68
+    ],
+    "jpeg-k-octets-supported": [
+        "rangeOfInteger",
+        51
+    ],
+    "jpeg-x-dimension-supported": [
+        "rangeOfInteger",
+        51
+    ],
+    "jpeg-y-dimension-supported": [
+        "rangeOfInteger",
+        51
+    ],
+    "k-octets": [
+        "integer",
+        33
+    ],
+    "k-octets-processed": [
+        "integer",
+        33
+    ],
+    "laminating-sides-supported": [
+        "keyword",
+        68
+    ],
+    "laminating-type-supported": [
+        "keyword",
+        68
+    ],
+    "last-document": [
+        "boolean",
+        34
+    ],
+    "limit": [
+        "integer",
+        33
+    ],
+    "logo-uri-formats-supported": [
+        "mimeMediaType",
+        73
+    ],
+    "logo-uri-schemes-supported": [
+        "uri",
+        69
+    ],
+    "material-amount-units-supported": [
+        "keyword",
+        68
+    ],
+    "material-diameter-supported": [
+        "integer",
+        33
+    ],
+    "material-nozzle-diameter-supported": [
+        "integer",
+        33
+    ],
+    "material-purpose-supported": [
+        "keyword",
+        68
+    ],
+    "material-rate-supported": [
+        "integer",
+        33
+    ],
+    "material-rate-units-supported": [
+        "keyword",
+        68
+    ],
+    "material-shell-thickness-supported": [
+        "integer",
+        33
+    ],
+    "material-temperature-supported": [
+        "integer",
+        33
+    ],
+    "material-type-supported": [
+        "keyword",
+        68
+    ],
+    "materials-col": [
+        "collection",
+        52
+    ],
+    "materials-col-actual": [
+        "collection",
+        52
+    ],
+    "materials-col-database": [
+        "collection",
+        52
+    ],
+    "materials-col-default": [
+        "collection",
+        52
+    ],
+    "materials-col-ready": [
+        "collection",
+        52
+    ],
+    "materials-col-supported": [
+        "keyword",
+        68
+    ],
+    "max-materials-col-supported": [
+        "integer",
+        33
+    ],
+    "max-page-ranges-supported": [
+        "integer",
+        33
+    ],
+    "max-save-info-supported": [
+        "integer",
+        33
+    ],
+    "max-stitching-locations-supported": [
+        "integer",
+        33
+    ],
+    "media": [
+        "keyword",
+        68
+    ],
+    "media-actual": [
+        "keyword",
+        68
+    ],
+    "media-back-coating-supported": [
+        "keyword",
+        68
+    ],
+    "media-bottom-margin-supported": [
+        "integer",
+        33
+    ],
+    "media-col": [
+        "collection",
+        52
+    ],
+    "media-col-actual": [
+        "collection",
+        52
+    ],
+    "media-col-database": [
+        "collection",
+        52
+    ],
+    "media-col-default": [
+        "collection",
+        52
+    ],
+    "media-col-ready": [
+        "collection",
+        52
+    ],
+    "media-col-supported": [
+        "keyword",
+        68
+    ],
+    "media-color-supported": [
+        "keyword",
+        68
+    ],
+    "media-default": [
+        "keyword",
+        68
+    ],
+    "media-front-coating-supported": [
+        "keyword",
+        68
+    ],
+    "media-grain-supported": [
+        "keyword",
+        68
+    ],
+    "media-hole-count-supported": [
+        "rangeOfInteger",
+        51
+    ],
+    "media-info-supported": [
+        "boolean",
+        34
+    ],
+    "media-input-tray-check": [
+        "keyword",
+        68
+    ],
+    "media-input-tray-check-actual": [
+        "keyword",
+        68
+    ],
+    "media-key-supported": [
+        "keyword",
+        68
+    ],
+    "media-left-margin-supported": [
+        "integer",
+        33
+    ],
+    "media-order-count-supported": [
+        "rangeOfInteger",
+        51
+    ],
+    "media-pre-printed-supported": [
+        "keyword",
+        68
+    ],
+    "media-ready": [
+        "keyword",
+        68
+    ],
+    "media-recycled-supported": [
+        "keyword",
+        68
+    ],
+    "media-right-margin-supported": [
+        "integer",
+        33
+    ],
+    "media-sheets": [
+        "integer",
+        33
+    ],
+    "media-sheets-col": [
+        "collection",
+        52
+    ],
+    "media-sheets-completed": [
+        "integer",
+        33
+    ],
+    "media-sheets-completed-col": [
+        "collection",
+        52
+    ],
+    "media-size-supported": [
+        "collection",
+        52
+    ],
+    "media-source-supported": [
+        "keyword",
+        68
+    ],
+    "media-supported": [
+        "keyword",
+        68
+    ],
+    "media-thickness-supported": [
+        "rangeOfInteger",
+        51
+    ],
+    "media-tooth-supported": [
+        "keyword",
+        68
+    ],
+    "media-top-margin-supported": [
+        "integer",
+        33
+    ],
+    "media-type-supported": [
+        "keyword",
+        68
+    ],
+    "media-weight-metric-supported": [
+        "rangeOfInteger",
+        51
+    ],
+    "message": [
+        "textWithoutLanguage",
+        65
+    ],
+    "message-supported": [
+        "integer",
+        33
+    ],
+    "more-info": [
+        "uri",
+        69
+    ],
+    "multiple-destination-uris-supported": [
+        "boolean",
+        34
+    ],
+    "multiple-document-handling": [
+        "keyword",
+        68
+    ],
+    "multiple-document-handling-actual": [
+        "keyword",
+        68
+    ],
+    "multiple-document-handling-default": [
+        "keyword",
+        68
+    ],
+    "multiple-document-handling-supported": [
+        "keyword",
+        68
+    ],
+    "multiple-document-jobs-supported": [
+        "boolean",
+        34
+    ],
+    "multiple-object-handling": [
+        "keyword",
+        68
+    ],
+    "multiple-object-handling-actual": [
+        "keyword",
+        68
+    ],
+    "multiple-object-handling-default": [
+        "keyword",
+        68
+    ],
+    "multiple-object-handling-supported": [
+        "keyword",
+        68
+    ],
+    "multiple-operation-time-out": [
+        "integer",
+        33
+    ],
+    "multiple-operation-time-out-action": [
+        "keyword",
+        68
+    ],
+    "my-jobs": [
+        "boolean",
+        34
+    ],
+    "natural-language-configured": [
+        "naturalLanguage",
+        72
+    ],
+    "notify-attributes": [
+        "keyword",
+        68
+    ],
+    "notify-attributes-supported": [
+        "keyword",
+        68
+    ],
+    "notify-charset": [
+        "charset",
+        71
+    ],
+    "notify-events": [
+        "keyword",
+        68
+    ],
+    "notify-events-default": [
+        "keyword",
+        68
+    ],
+    "notify-events-supported": [
+        "keyword",
+        68
+    ],
+    "notify-get-interval": [
+        "integer",
+        33
+    ],
+    "notify-job-id": [
+        "integer",
+        33
+    ],
+    "notify-lease-duration": [
+        "integer",
+        33
+    ],
+    "notify-lease-duration-default": [
+        "integer",
+        33
+    ],
+    "notify-lease-duration-supported": [
+        "integer",
+        33
+    ],
+    "notify-lease-expiration-time": [
+        "integer",
+        33
+    ],
+    "notify-max-events-supported": [
+        "integer",
+        33
+    ],
+    "notify-natural-language": [
+        "naturalLanguage",
+        72
+    ],
+    "notify-printer-up-time": [
+        "integer",
+        33
+    ],
+    "notify-printer-uri": [
+        "uri",
+        69
+    ],
+    "notify-pull-method": [
+        "keyword",
+        68
+    ],
+    "notify-pull-method-supported": [
+        "keyword",
+        68
+    ],
+    "notify-recipient-uri": [
+        "uri",
+        69
+    ],
+    "notify-schemes-supported": [
+        "uri",
+        69
+    ],
+    "notify-sequence-number": [
+        "integer",
+        33
+    ],
+    "notify-sequence-numbers": [
+        "integer",
+        33
+    ],
+    "notify-status-code": [
+        "enum",
+        35
+    ],
+    "notify-subscribed-event": [
+        "keyword",
+        68
+    ],
+    "notify-subscriber-user-name": [
+        "nameWithoutLanguage",
+        66
+    ],
+    "notify-subscriber-user-uri": [
+        "uri",
+        69
+    ],
+    "notify-subscription-id": [
+        "integer",
+        33
+    ],
+    "notify-subscription-ids": [
+        "integer",
+        33
+    ],
+    "notify-subscription-uuid": [
+        "uri",
+        69
+    ],
+    "notify-text": [
+        "textWithoutLanguage",
+        65
+    ],
+    "notify-time-interval": [
+        "integer",
+        33
+    ],
+    "notify-user-data": [
+        "octetString",
+        48
+    ],
+    "notify-wait": [
+        "boolean",
+        34
+    ],
+    "number-of-documents": [
+        "integer",
+        33
+    ],
+    "number-of-intervening-jobs": [
+        "integer",
+        33
+    ],
+    "number-of-retries": [
+        "integer",
+        33
+    ],
+    "number-of-retries-default": [
+        "integer",
+        33
+    ],
+    "number-of-retries-supported": [
+        "rangeOfInteger",
+        51
+    ],
+    "number-up": [
+        "integer",
+        33
+    ],
+    "number-up-actual": [
+        "integer",
+        33
+    ],
+    "number-up-default": [
+        "integer",
+        33
+    ],
+    "number-up-supported": [
+        "integer",
+        33
+    ],
+    "oauth-authorization-scope": [
+        "nameWithoutLanguage",
+        66
+    ],
+    "oauth-authorization-server-uri": [
+        "uri",
+        69
+    ],
+    "operations-supported": [
+        "enum",
+        35
+    ],
+    "organization-name-supported": [
+        "integer",
+        33
+    ],
+    "orientation-requested": [
+        "enum",
+        35
+    ],
+    "orientation-requested-actual": [
+        "enum",
+        35
+    ],
+    "orientation-requested-default": [
+        "no-value",
+        19
+    ],
+    "orientation-requested-supported": [
+        "enum",
+        35
+    ],
+    "original-requesting-user-name": [
+        "nameWithoutLanguage",
+        66
+    ],
+    "output-attributes": [
+        "collection",
+        52
+    ],
+    "output-attributes-actual": [
+        "collection",
+        52
+    ],
+    "output-attributes-default": [
+        "no-value",
+        19
+    ],
+    "output-attributes-supported": [
+        "keyword",
+        68
+    ],
+    "output-bin": [
+        "keyword",
+        68
+    ],
+    "output-bin-actual": [
+        "nameWithoutLanguage",
+        66
+    ],
+    "output-bin-default": [
+        "keyword",
+        68
+    ],
+    "output-bin-supported": [
+        "keyword",
+        68
+    ],
+    "output-device": [
+        "nameWithoutLanguage",
+        66
+    ],
+    "output-device-actual": [
+        "nameWithoutLanguage",
+        66
+    ],
+    "output-device-assigned": [
+        "nameWithoutLanguage",
+        66
+    ],
+    "output-device-document-state": [
+        "enum",
+        35
+    ],
+    "output-device-document-state-message": [
+        "textWithoutLanguage",
+        65
+    ],
+    "output-device-document-state-reasons": [
+        "keyword",
+        68
+    ],
+    "output-device-job-state": [
+        "enum",
+        35
+    ],
+    "output-device-job-state-message": [
+        "textWithoutLanguage",
+        65
+    ],
+    "output-device-job-state-reasons": [
+        "keyword",
+        68
+    ],
+    "output-device-job-states": [
+        "enum",
+        35
+    ],
+    "output-device-supported": [
+        "nameWithoutLanguage",
+        66
+    ],
+    "output-device-uuid": [
+        "uri",
+        69
+    ],
+    "output-device-uuid-assigned": [
+        "uri",
+        69
+    ],
+    "output-device-uuid-supported": [
+        "uri",
+        69
+    ],
+    "overrides": [
+        "collection",
+        52
+    ],
+    "overrides-actual": [
+        "collection",
+        52
+    ],
+    "overrides-supported": [
+        "keyword",
+        68
+    ],
+    "page-delivery": [
+        "keyword",
+        68
+    ],
+    "page-delivery-actual": [
+        "keyword",
+        68
+    ],
+    "page-delivery-default": [
+        "keyword",
+        68
+    ],
+    "page-delivery-supported": [
+        "keyword",
+        68
+    ],
+    "page-order-received": [
+        "keyword",
+        68
+    ],
+    "page-order-received-actual": [
+        "keyword",
+        68
+    ],
+    "page-order-received-default": [
+        "keyword",
+        68
+    ],
+    "page-order-received-supported": [
+        "keyword",
+        68
+    ],
+    "page-ranges": [
+        "rangeOfInteger",
+        51
+    ],
+    "page-ranges-actual": [
+        "rangeOfInteger",
+        51
+    ],
+    "page-ranges-supported": [
+        "boolean",
+        34
+    ],
+    "pages": [
+        "integer",
+        33
+    ],
+    "pages-col": [
+        "collection",
+        52
+    ],
+    "pages-completed": [
+        "integer",
+        33
+    ],
+    "pages-completed-col": [
+        "collection",
+        52
+    ],
+    "pages-completed-current-copy": [
+        "integer",
+        33
+    ],
+    "pages-per-minute": [
+        "integer",
+        33
+    ],
+    "pages-per-minute-color": [
+        "integer",
+        33
+    ],
+    "pages-per-subset": [
+        "integer",
+        33
+    ],
+    "pages-per-subset-supported": [
+        "boolean",
+        34
+    ],
+    "parent-printers-supported": [
+        "uri",
+        69
+    ],
+    "pclm-raster-back-side": [
+        "keyword",
+        68
+    ],
+    "pclm-source-resolution": [
+        "resolution",
+        50
+    ],
+    "pclm-source-resolution-supported": [
+        "resolution",
+        50
+    ],
+    "pclm-strip-height-preferred": [
+        "integer",
+        33
+    ],
+    "pclm-strip-height-supported": [
+        "integer",
+        33
+    ],
+    "pdf-features-supported": [
+        "keyword",
+        68
+    ],
+    "pdf-k-octets-supported": [
+        "rangeOfInteger",
+        51
+    ],
+    "pdf-versions-supported": [
+        "keyword",
+        68
+    ],
+    "pdl-init-file": [
+        "collection",
+        52
+    ],
+    "pdl-init-file-default": [
+        "no-value",
+        19
+    ],
+    "pdl-init-file-entry-supported": [
+        "nameWithoutLanguage",
+        66
+    ],
+    "pdl-init-file-location-supported": [
+        "uri",
+        69
+    ],
+    "pdl-init-file-name-subdirectory-supported": [
+        "boolean",
+        34
+    ],
+    "pdl-init-file-name-supported": [
+        "nameWithoutLanguage",
+        66
+    ],
+    "pdl-init-file-supported": [
+        "keyword",
+        68
+    ],
+    "pdl-override-guaranteed-supported": [
+        "keyword",
+        68
+    ],
+    "pdl-override-supported": [
+        "keyword",
+        68
+    ],
+    "platform-shape": [
+        "keyword",
+        68
+    ],
+    "platform-temperature": [
+        "integer",
+        33
+    ],
+    "platform-temperature-actual": [
+        "integer",
+        33
+    ],
+    "platform-temperature-default": [
+        "integer",
+        33
+    ],
+    "platform-temperature-supported": [
+        "integer",
+        33
+    ],
+    "preferred-attributes": [
+        "collection",
+        52
+    ],
+    "preferred-attributes-supported": [
+        "boolean",
+        34
+    ],
+    "presentation-direction-number-up": [
+        "keyword",
+        68
+    ],
+    "presentation-direction-number-up-actual": [
+        "keyword",
+        68
+    ],
+    "presentation-direction-number-up-default": [
+        "keyword",
+        68
+    ],
+    "presentation-direction-number-up-supported": [
+        "keyword",
+        68
+    ],
+    "print-accuracy": [
+        "collection",
+        52
+    ],
+    "print-accuracy-actual": [
+        "collection",
+        52
+    ],
+    "print-accuracy-supported": [
+        "collection",
+        52
+    ],
+    "print-base": [
+        "keyword",
+        68
+    ],
+    "print-base-actual": [
+        "keyword",
+        68
+    ],
+    "print-base-default": [
+        "keyword",
+        68
+    ],
+    "print-base-supported": [
+        "keyword",
+        68
+    ],
+    "print-color-mode": [
+        "keyword",
+        68
+    ],
+    "print-color-mode-actual": [
+        "keyword",
+        68
+    ],
+    "print-color-mode-default": [
+        "keyword",
+        68
+    ],
+    "print-color-mode-supported": [
+        "keyword",
+        68
+    ],
+    "print-content-optimize": [
+        "keyword",
+        68
+    ],
+    "print-content-optimize-actual": [
+        "keyword",
+        68
+    ],
+    "print-content-optimize-default": [
+        "keyword",
+        68
+    ],
+    "print-content-optimize-supported": [
+        "keyword",
+        68
+    ],
+    "print-objects": [
+        "collection",
+        52
+    ],
+    "print-objects-actual": [
+        "collection",
+        52
+    ],
+    "print-objects-supported": [
+        "keyword",
+        68
+    ],
+    "print-quality": [
+        "enum",
+        35
+    ],
+    "print-quality-actual": [
+        "enum",
+        35
+    ],
+    "print-quality-default": [
+        "enum",
+        35
+    ],
+    "print-quality-supported": [
+        "enum",
+        35
+    ],
+    "print-rendering-intent": [
+        "keyword",
+        68
+    ],
+    "print-rendering-intent-actual": [
+        "keyword",
+        68
+    ],
+    "print-rendering-intent-default": [
+        "keyword",
+        68
+    ],
+    "print-rendering-intent-supported": [
+        "keyword",
+        68
+    ],
+    "print-scaling": [
+        "keyword",
+        68
+    ],
+    "print-scaling-default": [
+        "keyword",
+        68
+    ],
+    "print-scaling-supported": [
+        "keyword",
+        68
+    ],
+    "print-supports": [
+        "keyword",
+        68
+    ],
+    "print-supports-actual": [
+        "keyword",
+        68
+    ],
+    "print-supports-default": [
+        "keyword",
+        68
+    ],
+    "print-supports-supported": [
+        "keyword",
+        68
+    ],
+    "printer-alert": [
+        "octetString",
+        48
+    ],
+    "printer-alert-description": [
+        "textWithoutLanguage",
+        65
+    ],
+    "printer-camera-image-uri": [
+        "uri",
+        69
+    ],
+    "printer-charge-info": [
+        "textWithoutLanguage",
+        65
+    ],
+    "printer-charge-info-uri": [
+        "uri",
+        69
+    ],
+    "printer-config-change-date-time": [
+        "dateTime",
+        49
+    ],
+    "printer-config-change-time": [
+        "integer",
+        33
+    ],
+    "printer-current-time": [
+        "dateTime",
+        49
+    ],
+    "printer-detailed-status-messages": [
+        "textWithoutLanguage",
+        65
+    ],
+    "printer-device-id": [
+        "textWithoutLanguage",
+        65
+    ],
+    "printer-dns-sd-name": [
+        "nameWithoutLanguage",
+        66
+    ],
+    "printer-driver-installer": [
+        "uri",
+        69
+    ],
+    "printer-fax-log-uri": [
+        "uri",
+        69
+    ],
+    "printer-fax-modem-info": [
+        "textWithoutLanguage",
+        65
+    ],
+    "printer-fax-modem-name": [
+        "nameWithoutLanguage",
+        66
+    ],
+    "printer-fax-modem-number": [
+        "uri",
+        69
+    ],
+    "printer-finisher": [
+        "octetString",
+        48
+    ],
+    "printer-finisher-description": [
+        "textWithoutLanguage",
+        65
+    ],
+    "printer-finisher-supplies": [
+        "octetString",
+        48
+    ],
+    "printer-finisher-supplies-description": [
+        "textWithoutLanguage",
+        65
+    ],
+    "printer-geo-location": [
+        "uri",
+        69
+    ],
+    "printer-get-attributes-supported": [
+        "keyword",
+        68
+    ],
+    "printer-icc-profiles": [
+        "collection",
+        52
+    ],
+    "printer-icons": [
+        "uri",
+        69
+    ],
+    "printer-info": [
+        "textWithoutLanguage",
+        65
+    ],
+    "printer-input-tray": [
+        "octetString",
+        48
+    ],
+    "printer-is-accepting-jobs": [
+        "boolean",
+        34
+    ],
+    "printer-kind": [
+        "keyword",
+        68
+    ],
+    "printer-location": [
+        "textWithoutLanguage",
+        65
+    ],
+    "printer-make-and-model": [
+        "textWithoutLanguage",
+        65
+    ],
+    "printer-mandatory-job-attributes": [
+        "keyword",
+        68
+    ],
+    "printer-message-date-time": [
+        "dateTime",
+        49
+    ],
+    "printer-message-from-operator": [
+        "textWithoutLanguage",
+        65
+    ],
+    "printer-message-time": [
+        "integer",
+        33
+    ],
+    "printer-more-info": [
+        "uri",
+        69
+    ],
+    "printer-more-info-manufacturer": [
+        "uri",
+        69
+    ],
+    "printer-name": [
+        "nameWithoutLanguage",
+        66
+    ],
+    "printer-organization": [
+        "textWithoutLanguage",
+        65
+    ],
+    "printer-organizational-unit": [
+        "textWithoutLanguage",
+        65
+    ],
+    "printer-output-tray": [
+        "octetString",
+        48
+    ],
+    "printer-privacy-policy-uri": [
+        "uri",
+        69
+    ],
+    "printer-resolution": [
+        "resolution",
+        50
+    ],
+    "printer-resolution-actual": [
+        "resolution",
+        50
+    ],
+    "printer-resolution-default": [
+        "resolution",
+        50
+    ],
+    "printer-resolution-supported": [
+        "resolution",
+        50
+    ],
+    "printer-settable-attributes-supported": [
+        "keyword",
+        68
+    ],
+    "printer-state": [
+        "enum",
+        35
+    ],
+    "printer-state-change-date-time": [
+        "dateTime",
+        49
+    ],
+    "printer-state-change-time": [
+        "integer",
+        33
+    ],
+    "printer-state-message": [
+        "textWithoutLanguage",
+        65
+    ],
+    "printer-state-reasons": [
+        "keyword",
+        68
+    ],
+    "printer-static-resource-directory-uri": [
+        "uri",
+        69
+    ],
+    "printer-static-resource-k-octets-free": [
+        "integer",
+        33
+    ],
+    "printer-static-resource-k-octets-supported": [
+        "integer",
+        33
+    ],
+    "printer-strings-languages-supported": [
+        "naturalLanguage",
+        72
+    ],
+    "printer-strings-uri": [
+        "uri",
+        69
+    ],
+    "printer-supply": [
+        "octetString",
+        48
+    ],
+    "printer-supply-description": [
+        "textWithoutLanguage",
+        65
+    ],
+    "printer-supply-info-uri": [
+        "uri",
+        69
+    ],
+    "printer-up-time": [
+        "integer",
+        33
+    ],
+    "printer-uri": [
+        "uri",
+        69
+    ],
+    "printer-uri-supported": [
+        "uri",
+        69
+    ],
+    "printer-uuid": [
+        "uri",
+        69
+    ],
+    "printer-volume-supported": [
+        "collection",
+        52
+    ],
+    "printer-xri-supported": [
+        "collection",
+        52
+    ],
+    "profile-uri-actual": [
+        "uri",
+        69
+    ],
+    "proof-print": [
+        "collection",
+        52
+    ],
+    "proof-print-default": [
+        "no-value",
+        19
+    ],
+    "proof-print-supported": [
+        "keyword",
+        68
+    ],
+    "punching-hole-diameter-configured": [
+        "integer",
+        33
+    ],
+    "punching-locations-supported": [
+        "integer",
+        33
+    ],
+    "punching-offset-supported": [
+        "integer",
+        33
+    ],
+    "punching-reference-edge-supported": [
+        "keyword",
+        68
+    ],
+    "pwg-raster-document-resolution-supported": [
+        "resolution",
+        50
+    ],
+    "pwg-raster-document-sheet-back": [
+        "keyword",
+        68
+    ],
+    "pwg-raster-document-type-supported": [
+        "keyword",
+        68
+    ],
+    "pwg-safe-gcode-supported": [
+        "textWithoutLanguage",
+        65
+    ],
+    "queued-job-count": [
+        "integer",
+        33
+    ],
+    "reference-uri-schemes-supported": [
+        "uri",
+        69
+    ],
+    "repertoire-supported": [
+        "keyword",
+        68
+    ],
+    "requested-attributes": [
+        "keyword",
+        68
+    ],
+    "requesting-user-name": [
+        "nameWithoutLanguage",
+        66
+    ],
+    "requesting-user-uri": [
+        "uri",
+        69
+    ],
+    "requesting-user-uri-supported": [
+        "boolean",
+        34
+    ],
+    "retry-interval": [
+        "integer",
+        33
+    ],
+    "retry-interval-default": [
+        "integer",
+        33
+    ],
+    "retry-interval-supported": [
+        "rangeOfInteger",
+        51
+    ],
+    "retry-time-out": [
+        "integer",
+        33
+    ],
+    "retry-time-out-default": [
+        "integer",
+        33
+    ],
+    "retry-time-out-supported": [
+        "rangeOfInteger",
+        51
+    ],
+    "save-disposition-supported": [
+        "keyword",
+        68
+    ],
+    "save-document-format-default": [
+        "mimeMediaType",
+        73
+    ],
+    "save-document-format-supported": [
+        "mimeMediaType",
+        73
+    ],
+    "save-location-default": [
+        "uri",
+        69
+    ],
+    "save-location-supported": [
+        "uri",
+        69
+    ],
+    "save-name-subdirectory-supported": [
+        "boolean",
+        34
+    ],
+    "save-name-supported": [
+        "boolean",
+        34
+    ],
+    "separator-sheets": [
+        "collection",
+        52
+    ],
+    "separator-sheets-actual": [
+        "collection",
+        52
+    ],
+    "separator-sheets-default": [
+        "collection",
+        52
+    ],
+    "separator-sheets-supported": [
+        "keyword",
+        68
+    ],
+    "sheet-collate": [
+        "keyword",
+        68
+    ],
+    "sheet-collate-actual": [
+        "keyword",
+        68
+    ],
+    "sheet-collate-default": [
+        "keyword",
+        68
+    ],
+    "sheet-collate-supported": [
+        "keyword",
+        68
+    ],
+    "sheet-completed-copy-number": [
+        "integer",
+        33
+    ],
+    "sheet-completed-document-number": [
+        "integer",
+        33
+    ],
+    "sides": [
+        "keyword",
+        68
+    ],
+    "sides-actual": [
+        "keyword",
+        68
+    ],
+    "sides-default": [
+        "keyword",
+        68
+    ],
+    "sides-supported": [
+        "keyword",
+        68
+    ],
+    "smi2699-auth-group-supported": [
+        "nameWithoutLanguage",
+        66
+    ],
+    "smi2699-auth-print-group": [
+        "nameWithoutLanguage",
+        66
+    ],
+    "smi2699-auth-proxy-group": [
+        "nameWithoutLanguage",
+        66
+    ],
+    "smi2699-device-command": [
+        "nameWithoutLanguage",
+        66
+    ],
+    "smi2699-device-command-supported": [
+        "nameWithoutLanguage",
+        66
+    ],
+    "smi2699-device-format": [
+        "mimeMediaType",
+        73
+    ],
+    "smi2699-device-format-supported": [
+        "mimeMediaType",
+        73
+    ],
+    "smi2699-device-name": [
+        "nameWithoutLanguage",
+        66
+    ],
+    "smi2699-device-uri": [
+        "uri",
+        69
+    ],
+    "smi2699-device-uri-schemes-supported": [
+        "uri",
+        69
+    ],
+    "status-message": [
+        "textWithoutLanguage",
+        65
+    ],
+    "stitching-angle-supported": [
+        "integer",
+        33
+    ],
+    "stitching-locations-supported": [
+        "integer",
+        33
+    ],
+    "stitching-method-supported": [
+        "keyword",
+        68
+    ],
+    "stitching-offset-supported": [
+        "integer",
+        33
+    ],
+    "stitching-reference-edge-supported": [
+        "keyword",
+        68
+    ],
+    "subject-supported": [
+        "integer",
+        33
+    ],
+    "subordinate-printers-supported": [
+        "uri",
+        69
+    ],
+    "subscription-privacy-attributes": [
+        "keyword",
+        68
+    ],
+    "subscription-privacy-scope": [
+        "keyword",
+        68
+    ],
+    "time-at-completed": [
+        "integer",
+        33
+    ],
+    "time-at-creation": [
+        "integer",
+        33
+    ],
+    "time-at-processing": [
+        "integer",
+        33
+    ],
+    "to-name-supported": [
+        "integer",
+        33
+    ],
+    "trimming-offset-supported": [
+        "integer",
+        33
+    ],
+    "trimming-reference-edge-supported": [
+        "keyword",
+        68
+    ],
+    "trimming-type-supported": [
+        "keyword",
+        68
+    ],
+    "trimming-when-supported": [
+        "keyword",
+        68
+    ],
+    "uri-authentication-supported": [
+        "keyword",
+        68
+    ],
+    "uri-security-supported": [
+        "keyword",
+        68
+    ],
+    "user-defined-values-supported": [
+        "keyword",
+        68
+    ],
+    "warnings-count": [
+        "integer",
+        33
+    ],
+    "which-jobs": [
+        "keyword",
+        68
+    ],
+    "which-jobs-supported": [
+        "keyword",
+        68
+    ],
+    "x-image-position": [
+        "keyword",
+        68
+    ],
+    "x-image-position-actual": [
+        "keyword",
+        68
+    ],
+    "x-image-position-default": [
+        "keyword",
+        68
+    ],
+    "x-image-position-supported": [
+        "keyword",
+        68
+    ],
+    "x-image-shift": [
+        "integer",
+        33
+    ],
+    "x-image-shift-actual": [
+        "integer",
+        33
+    ],
+    "x-image-shift-default": [
+        "integer",
+        33
+    ],
+    "x-image-shift-supported": [
+        "rangeOfInteger",
+        51
+    ],
+    "x-side1-image-shift": [
+        "integer",
+        33
+    ],
+    "x-side1-image-shift-actual": [
+        "integer",
+        33
+    ],
+    "x-side1-image-shift-default": [
+        "integer",
+        33
+    ],
+    "x-side1-image-shift-supported": [
+        "rangeOfInteger",
+        51
+    ],
+    "x-side2-image-shift": [
+        "integer",
+        33
+    ],
+    "x-side2-image-shift-actual": [
+        "integer",
+        33
+    ],
+    "x-side2-image-shift-default": [
+        "integer",
+        33
+    ],
+    "x-side2-image-shift-supported": [
+        "rangeOfInteger",
+        51
+    ],
+    "xri-authentication-supported": [
+        "keyword",
+        68
+    ],
+    "xri-security-supported": [
+        "keyword",
+        68
+    ],
+    "xri-uri-scheme-supported": [
+        "uri",
+        69
+    ],
+    "y-image-position": [
+        "keyword",
+        68
+    ],
+    "y-image-position-actual": [
+        "keyword",
+        68
+    ],
+    "y-image-position-default": [
+        "keyword",
+        68
+    ],
+    "y-image-position-supported": [
+        "keyword",
+        68
+    ],
+    "y-image-shift": [
+        "integer",
+        33
+    ],
+    "y-image-shift-actual": [
+        "integer",
+        33
+    ],
+    "y-image-shift-default": [
+        "integer",
+        33
+    ],
+    "y-image-shift-supported": [
+        "rangeOfInteger",
+        51
+    ],
+    "y-side1-image-shift": [
+        "integer",
+        33
+    ],
+    "y-side1-image-shift-actual": [
+        "integer",
+        33
+    ],
+    "y-side1-image-shift-default": [
+        "integer",
+        33
+    ],
+    "y-side1-image-shift-supported": [
+        "rangeOfInteger",
+        51
+    ],
+    "y-side2-image-shift": [
+        "integer",
+        33
+    ],
+    "y-side2-image-shift-actual": [
+        "integer",
+        33
+    ],
+    "y-side2-image-shift-default": [
+        "integer",
+        33
+    ],
+    "y-side2-image-shift-supported": [
+        "rangeOfInteger",
+        51
+    ]
+}

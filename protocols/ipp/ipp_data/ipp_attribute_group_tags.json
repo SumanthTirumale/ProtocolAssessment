@@ -1,0 +1,10 @@
+{
+  "operation-attributes-tag": 1,
+  "job-attributes-tag": 2,
+  "end-of-attributes-tag": 3,
+  "printer-attributes-tag": 4,
+  "unsupported-attributes-tag": 5,
+  "subscription-attributes-tag": 6,
+  "event-notification-attributes-tag": 7,
+  "document-attributes-tag": 9
+}
