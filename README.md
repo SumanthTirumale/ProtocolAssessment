@@ -4,7 +4,7 @@ It is used to form and send protocol packets.
 
 ## Installation
 
-* Download the package from [dist](https://github.com/SumanthTirumale/ProtocolAssessment/dist/) directory  
+* Download the package from [dist](https://github.com/SumanthTirumale/ProtocolAssessment/tree/master/dist) directory  
 * Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Protocol Assessment 
 
 ```bash
